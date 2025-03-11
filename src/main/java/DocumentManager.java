@@ -42,7 +42,7 @@ public class DocumentManager {
                 .id(id)
                 .title(document.getTitle())
                 .author(Author.builder()
-                        .id(document.getAuthor().getName())
+                        .id(document.getAuthor().getId())
                         .name(document.getAuthor().getName()
                         ).build())
                 .content(document.getContent())
